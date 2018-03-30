@@ -1,8 +1,7 @@
 /*
- * $Id: TranslatorTest.java 2710 2010-12-06 15:38:07Z andrewinkler $
  * ============================================================================
  * Project awtools-lang
- * Copyright (c) 2000-2010 by Andre Winkler. All rights reserved.
+ * Copyright (c) 2000-2018 by Andre Winkler. All rights reserved.
  * ============================================================================
  *          GNU LESSER GENERAL PUBLIC LICENSE
  *  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
@@ -25,18 +24,17 @@
 
 package de.awtools.lang;
 
-import static org.fest.assertions.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.Locale;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 /**
  * Testet die Funktionalität von Translator.
  * 
- * @version $LastChangedRevision: 2710 $ $LastChangedDate: 2010-12-06 16:38:07 +0100 (Mo, 06 Dez 2010) $
- * @author by Andre Winkler, $LastChangedBy: andrewinkler $
+ * @author by Andre Winkler
  */
 public class TranslatorTest {
 
